@@ -1,0 +1,17 @@
+CARS
+
+targa (string) - VARCHAR (6) - PRIMARY KEY - NOT NULL - UNIQUE - AUTO_INCREMENT
+marca (string) - VARCHAR (10) - NULL
+modello (string) - VARCHAR (15) - NULL
+anno_immatricolazione - YEAR - NOT NULL
+carburante (string) - VARCHAR (15) - NOT NULL
+chilometraggio - DECIMAL(6,2) - NOT NULL
+potenza (string) - VARCHAR (10) - NOT NULL
+cambio (string) - VARCHAR (14) - NOT NULL
+numero_porte - TINYINT - NULL
+numero_posti - TINYINT - NULL
+dotazioni (string) - TEXT - NULL
+colore (string) - VARCHAR (12) - DEFAULT
+materiale_interni (string) - VARCHAR (12) - DEFAULT
+condizioni (string) - VARCHAR (15) - NULL
+prezzo - DECIMAL - NULL
